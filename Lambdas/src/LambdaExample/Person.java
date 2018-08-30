@@ -4,13 +4,18 @@ public class Person {
 
     private String firstName;
     private String lastName;
-    private int age;
+    private int age = 30;
 
     public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
     }
+
+    public Person(String firstName) {
+        this.firstName = firstName;
+    }
+
 
     public String getFirstName() {
         return firstName;
