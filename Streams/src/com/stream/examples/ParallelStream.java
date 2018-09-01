@@ -1,3 +1,5 @@
+package com.stream.examples;
+
 import java.util.ArrayList;
 import java.util.List;
 

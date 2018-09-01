@@ -1,3 +1,5 @@
+package com.stream.examples;
+
 import LambdaExample.Person;
 
 import java.util.Arrays;
