@@ -15,7 +15,7 @@ public class PeekSkipExample {
 
         List<String> collect = Stream.of("Hi", "Hello", "Welcome", "How r u", "Good", "Nice")
                 .filter(val -> !val.equalsIgnoreCase("Hello"))
-                .peek(val -> System.out.println(val))
+                .peek(System.out::println)
                 .collect(Collectors.toList());
     }
 
